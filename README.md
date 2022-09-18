@@ -38,6 +38,7 @@ pip install google-api-python-client
 pip install pandas
 pip install pymysql
 pip install sqlalchemy
+pip install boto3
 ```
 MUST INPUT YOUR OWN Youtube API key & Database credentials
 ```
@@ -85,3 +86,4 @@ pwd="Your Password"
 **sub_gain**: Subscriber gain to the day before\
 **view_gain**: View gain to the day before
 
+#EOD
