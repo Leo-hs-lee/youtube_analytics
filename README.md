@@ -86,4 +86,18 @@ pwd="Your Password"
 **sub_gain**: Subscriber gain to the day before\
 **view_gain**: View gain to the day before
 
-#EOD
+### Evaluation
+
+**What we want to know:**
+We want to know how much one video worth.
+
+**How to evaluate:**
+We need to evaluate the channels based on their expected view counts per one video upload.
+
+**Evaluation index:**
+view_game/upload_diff, estimator: Ordinary least squares
+
+### What's Next?
+
+* Conduct deeper channel analysis of top 3% youtube channels to identify which theme/concept of video is best performing
+* Run the system with +1000 samples to develop more precise prediction model for well-performing youtube channels.
